@@ -3,8 +3,8 @@ package good.model;
 import good.behavior.fly.FlyNoWay;
 import good.behavior.quack.MuteQuack;
 
-public class ModelDuck extends Duck {
-  public ModelDuck() {
+public class DecoyDuck extends Duck {
+  public DecoyDuck() {
     flyBehavior = new FlyNoWay();
     quackBehavior = new MuteQuack();
   }
